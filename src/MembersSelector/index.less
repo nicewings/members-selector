@@ -1,0 +1,84 @@
+.Select-Modal {
+	.ant-modal-close {
+		.ant-modal-close-x i {
+			margin-top: 20px;
+		}
+	}
+
+	.selector-panel-box {
+		// .slans_dept_select {
+		// 	box-sizing: border-box;
+		// 	display: inline-block;
+		// 	position: relative;
+		// 	color: rgba(0, 0, 0, 0.65);
+		// 	font-size: 12px;
+		// 	width: 100%;
+		// }
+
+		.selector-panel {
+			width: 50%;
+			float: left;
+			padding: 0 5px;
+			.title {
+				font-size: 16px;
+				color: #363636;
+				padding: 14px 0px;
+			}
+			.body {
+				width: 100%;
+				border: 1px solid #dedede;
+				border-radius: 4px;
+				background: #f4f6f8;
+				height: 362px;
+				.selector-input {
+					padding: 11px 11px 0 11px;
+					input {
+						min-height: auto;
+					}
+				}
+				.selector-navbar {
+					padding: 5px 11px;
+					overflow: hidden;
+					font-size: 12px;
+					cursor: pointer;
+					.selector-navbar-item {
+						max-width: 33%;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						color: #38adff;
+						float: left;
+						position: relative;
+						cursor: pointer;
+						font-size: 14px;
+						padding-left: 22px;
+					}
+					.check-all {
+						padding: 0 5px;
+					}
+				}
+				.scrollbars {
+					height: 250px;
+					ul {
+						padding-left: 0;
+						.list-item {
+							width: 100%;
+							list-style: none;
+							padding: 5px 16px;
+							font-size: 14px;
+							color: #363636;
+							position: relative;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							cursor: pointer;
+							&:hover {
+								background: #eee;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
